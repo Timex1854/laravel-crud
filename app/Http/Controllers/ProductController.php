@@ -46,7 +46,7 @@ class ProductController extends Controller
         Product::create($request->all());
 
         return redirect()->route('products.index')
-                        ->with('success','Product created successfully.');
+                        ->with('success','Produsul a fost creat');
     }
 
     /**
